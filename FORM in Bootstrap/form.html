@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="section mt-5 p-5 ">
+
+        <form>
+            <div class="form-group">
+                <label>Email address</label>
+                <input type="email" class="form-control" placeholder="Enter email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder=" Enter Password" name="Password">
+            </div>
+
+            <div class="form-check-inline">
+                <label> Gander
+                    <input type="checkbox" class="form-check-input" value="opt1">Male 😎
+                </label>
+            </div>
+
+            <div class="form-check-inline">
+                <label>
+                    <input type="checkbox" class="form-check-input" value="opt1">Female 👤
+                </label>
+            </div>
+            <br>
+
+            <!-- If name is same then you chhose only one option   ----  name="radio1" -->
+            <div class="form-check-inline mt-4">
+                <label>Status- <input type="radio" class="form-check-inline" name="radio1">Single</label>
+            </div>
+
+            <div class="form-check-inline">
+                <label><input type="radio" class="form-check-inline" name="radio1">Married</label>
+            </div>
+
+
+            <div class="form group mt-4">
+                <label> Comment: </label> <textarea class="form-control" name="textarea" cols="30" rows="10"
+                    type="resize:none;"></textarea>
+            </div>
+
+            <div class="form group mt-4">
+                <label>Select List</label>
+                <select name="select" class="form-control">
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+
+            <div class="form-group form-check mt-4">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Check me Plz🤷‍♂️</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-4">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

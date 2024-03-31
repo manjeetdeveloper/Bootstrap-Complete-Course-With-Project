@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LPU University  Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <style>
+        body {
+            background-image: url('./Lovely_Professional_University_logo.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgba(255, 240, 240, 0.5); /* Adjust transparency here */
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency here */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        form {
+            background-color: transparent; /* Make the form background transparent */
+        }
+    </style>
+  
+</head>
+<body>
+    <div class="container mt-5">
+      <h2 class="mb-4 text-center text-warning "> Lpu University Admission Form</h2>
+     
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputFirstName ">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputLastName">Last Name</label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label for="inputPhone">Phone Number</label>
+          <input type="phone" class="form-control" id="inputPhone" placeholder="Phone Number" required>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity" required>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control" required>
+              <option selected>Choose...</option>
+              <option>Bihar</option>
+              <option>Up</option>
+              <option>MP</option>
+              <option>Hariyana</option>
+              <option>Punjab</option>
+              <option>Telangana</option>
+              <option>Kerla</option>
+              <option>Assam</option>
+              <option>Himachal</option>
+              <option>Jammu</option>
+              <option>Kashmir</option>
+              <option>LakshayDeep</option>
+              <option>Gujrat</option>
+              <option>Mumbai</option>
+              <option>Banguluru</option>  
+              <option>Delhi</option>
+              <option>Jharkhand</option>
+
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputProgram">Program of Interest</label>
+          <select id="inputProgram" class="form-control" required>
+            <option selected>Choose...</option>
+            <option>Computer Science</option>
+            <option>Engineering</option>
+            <option>Business Administration</option>
+            <option>Electrical & Electtrician </option>
+
+
+            <input class="form-control form-control-lg mt-4" id="formFileLg" type="file" />
+            <div class="small text-muted mt-2">Upload your Certification or any other relevant file.
+                Max file
+                size 50 MB</div>
+           
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary  ">Submit</button>
+      </form>
+    </div>
+  
+
+    
+</body>
+</html>

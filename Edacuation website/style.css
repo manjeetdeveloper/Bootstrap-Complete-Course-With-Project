@@ -1,0 +1,199 @@
+body {
+  background-color: rgb(232, 237, 241);
+}
+
+:root {
+  --bs-body-font-family: 'Roboto', sans-serif;
+}
+
+
+.hero {
+  min-height: 90vh;
+  position: relative;
+}
+
+/* button fixe pill  */
+.rounded-pill {
+  border-radius: 50px !important; /* Set border radius to make it a pill shape */
+  padding-left: 20px !important; /* Add some padding on the left and right */
+  padding-right: 20px !important;
+}
+
+
+
+
+.position-relative:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 87, 201); /* Adjust background color on hover */
+  z-index: 1;
+  opacity: 0.5; /* Adjust opacity as needed */
+}
+/* Override Bootstrap's default link color */
+
+
+
+
+
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px); /* Add blur effect to the video */
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+
+/*  About section  */
+
+/* Custom styles for this template */
+.about-section {
+  padding: 80px 0;
+}
+.about-heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: blue;
+}
+.about-paragraph {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.checked {  
+  color : #FFC107;  
+  font-size : 20px;  
+}
+
+
+
+
+
+
+
+/* middle hero image  */
+
+.hero2 {
+  min-height: 80vh;
+  background:  url(./image/hero-img-1-min.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 3rem;
+  object-fit: cover;
+  /* filter: blur(1px); */
+
+}
+.hero2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: #fff;
+  text-align: center;
+  text-wrap: nowrap;
+
+}
+
+
+/* crausial testomonial  */
+ .testimonial {
+  text-align: center;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+
+.footer_d {
+  background: #336adf;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 6rem 0;
+}
+
+
+/* footer icon 
+
+*/
+
+.social-icon {
+  color: white; /* Initial color */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.social-icon:hover {
+  color: green; /* Color on hover */
+}
+
+
+
+/* OUR STAFF PAGE CSS HERE  */
+
+.hero {
+  position: relative;
+}
+
+.background-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  filter: blur(4.7px); /* Adjust the blur value as needed */
+}
+
+.background-blur img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* NEWS SECTION HOVER ON IMG ZOOM  */
+
+.card-img-top {
+  transition: transform 0.6s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

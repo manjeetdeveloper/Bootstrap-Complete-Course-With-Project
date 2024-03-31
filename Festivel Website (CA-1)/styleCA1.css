@@ -1,0 +1,20 @@
+.hero {
+    min-height: 70vh;
+    background: #000 url(https://images.pexels.com/photos/10568129/pexels-photo-10568129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+  }
+  .hero-content {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+  }

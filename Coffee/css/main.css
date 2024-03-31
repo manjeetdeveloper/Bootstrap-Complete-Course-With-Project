@@ -1,0 +1,223 @@
+:root {
+    --primary-color: #0a1118;
+    --primary-color-highlight: #233d54;
+    --bs-body-bg: #FBF0F6;
+    /* bs-Means :- bootstrap-color */
+    --bs-body-font-family: 'Montserrat', sans-serif;
+}
+
+html {
+         scroll-behavior: smooth;
+     }
+
+a {
+    color: var(--primary-color);
+}
+a:hover {
+    color: var(--primary-color);
+}
+
+  /* Media Queries Like reposnsive  */
+
+  /* @media (min-width: 544px) {}
+  @media (min-width: 768px) {}
+  @media (min-width: 992px) {}
+  @media (min-width: 1200px) {}
+  @media (min-width: 1400px) {}
+  @media (min-width: 1600px) {} */
+
+
+/* Custiom container yani text on Video player 
+*/
+    .container-custom {
+        width: 100%;
+        padding: 0 1rem;
+        margin: 0 auto;
+    }
+
+    /* responsive on 1200px , 1400px and so on display  */
+
+    @media (min-width: 1200px) 
+    {
+    .container-custom {width: 1140px;}
+
+     }
+
+     @media (min-width: 1400px) 
+    {
+    .container-custom {width: 1340px;}
+
+     }
+
+     @media (min-width: 12600px) 
+    {
+    .container-custom {width: 1520px;}
+
+     }
+
+
+
+
+/* Main Header */
+
+.header {
+    z-index: 2;
+}
+
+/* /* Flyout Navigation Bar */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255,247,231);
+    z-index: 4;
+
+}
+
+.dropdown-nav_closeNavBtn {
+        position: absolute;
+        top: 20px;
+        right: 16px;
+        background-color: rgba(255,255,255,0.6);
+}
+
+
+/* Animation Problem Solve yaha animation ko center me lane lke liye  align-item center  */
+.dropdown-nav_container {
+    height: 100vh;
+    padding: 0 1rem;
+
+}
+
+
+
+/* Hero section  */
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+/* media query */
+@media (min-width: 1400px) {
+    .hero_heading {
+        font-size: 3.2rem;
+    } 
+}
+
+
+.hero_video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%) translateY(-50%);
+}
+
+.hero_overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: var(--primary-color);
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.hero_content {
+    z-index: 1;
+}
+
+.hero_container-width {
+    max-width: 540px;
+}
+
+
+
+/* Explore button ke liye css 
+ */
+
+ .hero_scroll-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%);
+    z-index: 1;
+    color: var(--bs-light);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+ }
+
+ .hero_scroll-btn:hover {
+    color: var(--bs-light);
+    opacity: 0.8;
+ }
+
+
+ /* Here arroe Bi set  */
+
+ .hero_scroll-btn .bi {
+    transition-delay: 0.08s;
+    animation: bounce 1s infinite alternate;
+
+ }
+
+ @keyframes bounce {
+    from
+    {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+ }
+
+
+ /* steps section 
+  */
+
+  .steps {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+ /* image resplonsive  step 01  */
+ /* here responsive in all display use media query  */
+  .steps_section-thumbnail {
+    height: 240px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .steps_content-width {
+    max-width: 456px;
+    margin: 0 auto;
+  }
+
+  
+  /* * ye phone ke liye to image ho gya but again display me image secronized ho jyga so let create another media query 👍👍*/ 
+
+  @media (min-width: 544px) {
+
+    .steps {
+        padding-top: 80px;
+        padding-bottom: 80px;
+      }
+
+      
+    .steps_section-thumbnail {
+        height: auto;
+     }
+    }

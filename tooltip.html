@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <h3>Tooltip example</h3><br/><br/>
+
+    <a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip top">Top</a>
+    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Tooltip bottom">Bottom</a>
+    <a href="#" data-toggle="tooltip" data-placement="left" title="Tooltip left">Left</a>
+    <a href="#" data-toggle="tooltip" data-placement="right" title="Tooltip right">Right</a>
+  </div>
+</body>
+</html>
+
