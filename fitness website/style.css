@@ -1,0 +1,119 @@
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 22px;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 22px auto;
+}
+
+ul.navbar {
+    margin-left: -13px;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 22px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.navbar li a:hover {
+    color: rgb(255, 174, 0);
+    border: 2px solid rgb(255, 174, 0);
+    padding: 5px;
+}
+
+.left img {
+    width: 200px;
+}
+
+.btn {
+    margin: 0px 5px;
+    color: white;
+    background-color: rgb(255, 174, 0);
+    padding: 9px 27px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    background: none;
+    border: 3px solid rgb(255, 174, 0);
+}
+
+.heading {
+    display: block;
+    width: 201px;
+
+}
+
+.quote {
+    display: block;
+    width: 400px;
+
+}
+
+div.quotebox {
+    margin: 36px 0px;
+    display: inline-block;
+    width: 410px;
+    height: 176px;
+    border: 3px solid white;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 15px;
+    padding-left: 21px;
+}
+
+p.author {
+    margin-left: 210px;
+}
+
+div.form {
+    margin: 0px 551px;
+}
+
+button.submit {
+    margin: 32px 149px;
+    background-color: black;
+    width: 134px;
+    height: 39px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.submit:hover{
+    background: none;
+    border: 3px solid white;
+
+}
+.formgroup{
+    display: block;
+    height: 24px;
+    width: 361px;
+    /* margin-bottom: 5px; */
+    text-align: center;
+    border: none;
+    margin: -5px auto;
+
+}

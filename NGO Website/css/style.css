@@ -1,0 +1,25 @@
+/* Custom CSS for the navbar */
+.navbar-nav .nav-link {
+  font-size: 0.9rem; /* Adjust font size */
+}
+.navbar-nav .nav-item {
+  margin-right: 0px; /* Adjust spacing between navbar items */
+}
+.navbar-nav .nav-item:hover .dropdown-menu {
+  display: block; /* Show dropdown menu on hover */
+}
+.navbar-nav .btn-group .dropdown-toggle::after {
+  display: none; /* Hide default dropdown caret */
+}
+.navbar-nav .btn-group .btn {
+  font-size: 0.9rem; /* Adjust font size */
+  padding: 0.375rem 0.75rem; /* Adjust button padding */
+}
+
+.container {
+  text-align: center; /* Center-align content */
+}
+
+/* button alignment */
+.my-2.float-md-right {
+  float: right; }

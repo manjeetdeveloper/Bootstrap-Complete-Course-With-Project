@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>color alert box</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
+
+        ul.nav-pills {
+            top: 20px;
+            position: fixed;
+        }
+
+        div.col-8 div {
+            height: 700px;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#myscrollspy">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-4" id="myscrollspy">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section1">section 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">section 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">section 3</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#section41">link1</a>
+                            <a class="dropdown-item" href="#section42">link2</a>
+                            <a class="dropdown-item" href="#alert_closeBox">Alert Close Box</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="col-8">
+                <div id="section1" class="bg-success">
+                    <h1>section 1</h1>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                </div>
+
+                <div id="section2" class="bg-success">
+                    <h1>section 2</h1>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                </div>
+
+                <div id="section3" class="bg-success">
+                    <h1>section 3</h1>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                    
+                </div>
+
+                <div id="section41" class="bg-success">
+                    <h1>section 41</h1>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                    v
+                    
+                </div>
+
+                <div id="section42" class="bg-success">
+                    <h1>section 42</h1>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                    <p>Try this section and look at the navigation bar while scrolling.</p>
+                  
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Here i am using alert_closeBox  -->
+  <div  id="alert_closeBox" class="container">
+    
+    <div class="alert alert-success mt-5 alert-dismissible">
+
+        <!-- &times; --- IS CREATE X CROSS BUTTON-->
+        <!-- "" data-dismiss="alert ""  ----- TAP ON X CLOSS BUTTON CLOSE BOX-->
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <b>Hello EveryBody😎</b>
+    </div>
+
+    <div class="alert alert-info mt-5 alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <b>I am Manjeet</b>
+    </div>
+
+    <div class="alert alert-danger mt-5 alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <b>I am Pursuing BCA In Lovely Professional University</b>
+    </div>
+
+    <div class="alert alert-primary mt-5 alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <b>My Doman is FullStack Developer</b>
+    </div>
+
+    <div class="alert alert-secondary mt-5 alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <b><a href="https://github.com/manjeetdeveloper"target-blank="#">Github💫💫</a></b>
+    </div>
+
+    <div class="alert alert-warning mt-5 alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <b>Warning⚠️⚠️⚠️</b>
+    </div>
+    </div>
+
+</div>
+</body>
+</html>
